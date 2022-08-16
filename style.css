@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    line-height: 52px;
+    z-index: 1;
+    box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+    background-color: #fff;
+    letter-spacing: 4px;
+
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 24px;
+}
+
+#slider {
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('https://www.w3schools.com/w3images/architect.jpg') top center / cover no-repeat;
+}
+
+#content {
+    width: 100%;
+    padding: 8px 16px;
+}
+
+#content .project-section {
+    padding-top: 64px;
+}
+
+#content .section-title {
+    border-bottom: 1px solid #ccc;
+    font-size: 24px;
+}
+
+
+#content .project-desc {
+    position: relative;
+
+}
+
+.project-img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.project-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 12px;
+    line-height: 24px;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+}
+
+#content .about-section {
+    padding-top: 64px;
+}
+
+.about-text {
+    margin-top: 16px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.name {
+    padding: 16px 0;
+    font-size: 24px;
+}
+
+.jobname {
+    opacity: 0.7;
+}
+
+.job-desc {
+    padding: 16px 0;
+}
+
+.contact-btn {
+    background: #f1f1f1;
+    color: #000;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #ccc;
+}
+
+#content .contact-section {
+    padding: 64px 0;
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.send-btn {
+    border: none;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    margin: 16px 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.end-img {
+    width: 100%;
+    height: auto;
+}
+
+.copyright {
+    display: flex;
+    background-color: #000;
+    padding: 32px 0;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.copyright a {
+    color: #fff;
+    padding-left: 4px;
+}
