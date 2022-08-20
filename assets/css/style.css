@@ -40,11 +40,35 @@ html {
 }
 
 #slider {
+    display: flex;
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
     background: url('https://www.w3schools.com/w3images/architect.jpg') top center / cover no-repeat;
+    justify-content: center;
 }
+
+#slider .slider-title {
+    position: absolute;
+    top: 50%;
+    line-height: 1.5;
+    letter-spacing: 4px;
+}
+
+#slider .slider-title span {
+    color: #fff;
+    font-size: 36px
+}
+
+#slider .slider-title b {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    opacity: 0.8;
+    font-size: 36px;
+
+}
+
 
 #content {
     width: 100%;
@@ -65,6 +89,7 @@ html {
     position: relative;
 
 }
+
 
 .project-img {
     width: 100%;
